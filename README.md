@@ -2,15 +2,15 @@
 
 ## IBKR portfolio vs S&P 500
 
-`Backtesting/02_IBKR_vs_SNP500.py` pulls your account history from Interactive Brokers and compares it with the S&P 500 from the day you first had money invested to the latest report date.
+`backtesting/02_IBKR_vs_SNP500.py` pulls your account history from Interactive Brokers and compares it with the S&P 500 from the day you first had money invested to the latest report date.
 
 ```
 pip install -r requirements.txt
-python Backtesting/02_IBKR_vs_SNP500.py            # cached IBKR data is reused for 12h
-python Backtesting/02_IBKR_vs_SNP500.py --refresh  # force a fresh download
+python backtesting/02_IBKR_vs_SNP500.py            # cached IBKR data is reused for 12h
+python backtesting/02_IBKR_vs_SNP500.py --refresh  # force a fresh download
 ```
 
-It prints a summary and writes a chart and a daily table to `Backtesting/output/`. That folder, the IBKR cache in `Backtesting/data/`, and `.env` are git-ignored because they contain your balances and token.
+It prints a summary and writes a chart and a daily table to `backtesting/output/`. That folder, the IBKR cache in `backtesting/data/`, and `.env` are git-ignored because they contain your balances and token.
 
 ### One-time setup: Flex Query + token
 

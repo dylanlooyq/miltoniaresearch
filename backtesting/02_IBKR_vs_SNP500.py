@@ -1,7 +1,7 @@
 """Benchmark your IBKR portfolio against the S&P 500 for as long as you've had money invested.
 
-    python Backtesting/02_IBKR_vs_SNP500.py             # uses cached IBKR data if < 12h old
-    python Backtesting/02_IBKR_vs_SNP500.py --refresh   # re-download from IBKR
+    python backtesting/02_IBKR_vs_SNP500.py             # uses cached IBKR data if < 12h old
+    python backtesting/02_IBKR_vs_SNP500.py --refresh   # re-download from IBKR
 
 Needs a Flex Query token in .env - see README.md.
 """
