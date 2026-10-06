@@ -1,0 +1,7 @@
+# IBKR credentials and account data - never commit
+.env
+Backtesting/data/
+Backtesting/output/
+
+__pycache__/
+.pytest_cache/
